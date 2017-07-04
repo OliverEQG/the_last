@@ -1,0 +1,61 @@
+.peli{
+    width: 74%;
+    margin-left: 13%;
+    color: white;
+}
+.peli img{
+    display:inline-block;
+    width: 90%;
+    height: 250px;
+    margin: 0 5%;
+}
+.peli p{
+    display: inline;
+}
+.peli .minipeli{
+    width: 23%;
+    vertical-align: top;
+    background-color: blue;
+    padding: 5px 10px 5px 10px;
+}
+.su{
+    color: white;
+    background-color: blue;
+    width: 75%;
+    margin-left: 13%;
+    text-align: center;
+}
+.peli img{
+display:block!important;
+-webkit-transition:-webkit-transform 1s ease-out;
+-moz-transition:-moz-transform 1s ease-out;
+-o-transition:-o-transform 1s ease-out;
+-ms-transition:-ms-transform 1s ease-out;
+transition:transform 1s ease-out;
+}
+#menos{display: none;}
+#menos1{display: none;}
+#menos2{display: none;}
+#menos3{display: none;}
+#menos4{display: none;}
+#menos5{display: none;}
+button{
+  background-color: darkblue;
+  border-color: darkblue;
+  color: white;
+}
+button a{
+  color: white;
+  text-decoration: none;
+}
+button:hover a{
+  color: black;
+}
+button:hover{
+    border-color: white;
+    background-color: white;
+    color: black;
+}
+button a:hover{
+  color: black;
+}

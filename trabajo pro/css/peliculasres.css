@@ -1,0 +1,27 @@
+.peliculares img{
+  display: inline-block;
+  min-width:200px;
+  height: 300px;
+  position: sticky;
+}
+.peliculares p{
+  text-align: justify;
+  vertical-align: top;
+  display: inline;
+}
+.peliculares label{
+  text-align: justify;
+  vertical-align: top;
+  display: inline-block;
+}
+.peliculares{
+  width: 75%;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Times New Roman";
+}
+.videos{
+  margin-left: 10%;
+}

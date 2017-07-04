@@ -1,76 +1,15 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 
 <head>
     <meta charset="utf-8" />
     <title>CINETRON</title>
-    <link rel="icon" href="img/cup.png">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="css/menu.js"></script>
+    <link rel="stylesheet" href="css/contactos.css">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/fonts.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" >
     <link href='htpp://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css' >
-    <style>
-    form{
-            margin:180px auto;
-            width:350px;
-            height:250px;
-            background:white;
-            border-bottom:4px solid darkorange;
-        }
-        form label{
-            display:block;
-            color:white;
-            background:#f07800;
-            padding:12px 0;
-            text-align:center;
-            font-size:20px;
-            font-weight:bold;
-            font-family:cursive;
-
-        }
-        form input[type="text"],input[type="password"]{
-            width:230px;
-            padding:12px 40px;
-            font-weight:bold;
-            font-family:cursive;
-            margin-left:18px;
-            margin-bottom:10px;
-            border:1px solid #f07800;
-            text-transform:uppercase;
-            -moz-transition:all 0.5s;
-        }
-        form input[type="text"]{
-            background: url("img/password.png") 5px no-repeat;
-
-        }
-        form input[type="password"]{
-            background: url("img/login.png") 5px no-repeat;
-
-  }
-        form input[type="text"]:focus, input[type="password"]:focus {
-            border: 1px solid #333;
-            background: none;
-            width: 290px;
-            padding: 12px 10px;
-        }
-  form input[type="submit"]{
-      background:#f07800;
-      color:white;
-      display:inline-block;
-      margin-left:18px;
-      margin-bottom:10px;
-      padding:8px 20px;
-      border:none;
-      font-weight:bold
-
-  }
-   form input[type="submit"]:hover{
-       background:darkorange;
-       cursor:pointer;
-
-   }
-    </style>
 </head>
 <body>
   <header>
@@ -80,8 +19,7 @@
     </div>
     <nav>
         <ul>
-
-           <li><a href="index.html"><span class="icon-home"></span> Inicio</a></li>
+             <li><a href="index.html"><span class="icon-home"></span> Inicio</a></li>
             <li class="submenu">
                 <a href="peliculas.html"><span class="icon-shopping-cart"></span>Peliculas</a>
             </li>
@@ -89,6 +27,7 @@
                 <a href="#"><span class="icon-cw"></span>Login</a>
                 <ul class="children">
                <li><a href="registro.html"></span>Registrase</a></li>
+               <li><a href="iniciar.html"></span>Iniciar Sesión</a></li>
            </ul>
                 </li>
                 <li class="submenu">
@@ -110,11 +49,15 @@
                            <li><a href="#"></span>Lista de Promociones</a></li>
                        </ul>
                             </li>
-                <li><a href="contacto.html"><span class="icon-old-phone"></span> Contacto</a></li>
-</ul>
+           </ul>
+                     </li>
+
+        </ul>
     </nav>
   </header>
-      <div class="social">
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
+ <div class="social">
         <ul>
             <li><a href="" target="_blank" class="icon-facebook"></a></li>
             <li><a href="" target="_blank" class="icon-twitter"></a></li>
@@ -122,13 +65,34 @@
             <li><a href="" target="_blank" class="icon-pinterest"></a></li>
         </ul>
     </div>
-    <form action="">
-        <label for="">Iniciar sesion</label> <br>
-        <input type="text" name="" id="" placeholder="Usuario" required /> <br>
-        <input type="password" name="" id="" placeholder="Contraseña"  required/> <br>
+<aside class="cuadro"><h2>Acerca de Nosotros.</h2>
+<p>Somos una empresa que brindamos un servicio especializado a los amantes de la cinematografía con los géneros más exclusivos de esta industria.Te brindamos los mejores géneros, los estrenos más impactantes, libro con el guion de la película de tu interés, información de tus actores favoritos, todo un kit de servicios para usted.
+    </p></aside>
 
-        <input type="submit" value="Entrar" />
-            <a href="registro.html"><h5> Registrese aqui</h5><a>
-    </form>
+<aside class="cuadritos"><h4>Contactanos.</h4><br>
+    <label>25850711</label>
+    <br><br>
+    <label>57133083</label>
+    <br><br>
+    <label>77405132</label>
+
+
+</aside>
+<aside class="cuadritos"><h4>Escríbenos al correo.</h4><br>
+   <ul><li><a href="https://mail.google.com">cinemovie@cinetron.com</a></li></ul>
+    <br><br><br><br>
+</aside>
+<aside class="cuadritos"><h4>Administradores.</h4><br>
+   <label>Ing.Oliver Gómez</label>
+    <br>
+    <label>olivergomez.oeqg@gmail.com</label>
+    <br><br>
+    <label>Ing.Eloísa Flores</label>
+    <br>
+     <label>Ing.Eloisaflores16@gmail.com</label>
+
+
+</aside>
+
 
 </body>

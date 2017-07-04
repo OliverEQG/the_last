@@ -19,4 +19,5 @@ function main() {
     $('.submenu').click(function () {
         $(this).children('.children').slideToggle();
     });
+
 }

@@ -114,14 +114,14 @@
         });
       });
       if (this.options.navigation.active) {
-        prevButton = $("<a>", {
-          "class": "slidesjs-previous slidesjs-navigation icon-chevron-right",
+        nextButton = $("<a>", {
+          "class": "slidesjs-next slidesjs-navigation icon-chevron-right",
           href: "#",
           title: "",
           text: ""
         }).appendTo($element);
-        nextButton = $("<a>", {
-          "class": "slidesjs-next slidesjs-navigation icon-chevron-left",
+          prevButton = $("<a>", {
+          "class": "slidesjs-previous slidesjs-navigation icon-chevron-left",
           href: "#",
           title: "",
           text: ""

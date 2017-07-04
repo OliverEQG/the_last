@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title >CINETRON</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/cabesera.ico">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="css/menu.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/botomes.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/peliculasres.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" >
+    <link href='htpp://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css' >
+</head>
+<body>
+  <header>
+     <img id="logo" src="img/i2.png" />
+    <div class="menu_bar">
+        <a href="#" class="bt-menu"><span class="icon-menu"></span> Menu</a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html"><span class="icon-home"></span> Inicio</a></li>
+            <li class="submenu">
+                <a href="#"><span class="icon-cw"></span>Login</a>
+                <ul class="children">
+               <li><a href="registro.html"></span>Registrase</a></li>
+               <li><a href="iniciar.html"></span>Iniciar Sesión</a></li>
+           </ul>
+                </li>
+                <li class="submenu">
+                    <a href="#"><span class="icon-cw"></span>Proximamente</a>
+                    <ul class="children">
+                   <li><a href="#"></span>Estacion sombi</a></li>
+               </ul>
+                    </li>
+                    <li class="submenu">
+                        <a href="#"><span class="icon-cw"></span>Reservaciones</a>
+                        <ul class="children">
+                       <li><a href="#"></span>Reservar</a></li>
+                       <li><a href="#"></span>.......</span></a></li>
+                   </ul>
+                        </li>
+                        <li class="submenu">
+                            <a href="#"><span class="icon-cw"></span>Promociones</a>
+                            <ul class="children">
+                           <li><a href="#"></span>Lista de Promociones</a></li>
+                       </ul>
+                            </li>
+                <li><a href="contacto.html"><span class="icon-old-phone"></span> Contacto</a></li>
+           </ul>
+                     </li>
+
+        </ul>
+    </nav>
+  </header>
+
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
+ <div class="social">
+        <ul>
+            <li><a href="" target="_blank" class="icon-facebook"></a></li>
+            <li><a href="" target="_blank" class="icon-twitter"></a></li>
+            <li><a href="" target="_blank" class="icon-google"></a></li>
+            <li><a href="" target="_blank" class="icon-pinterest"></a></li>
+        </ul>
+    </div>
+    <div class="peliculares">
+      <div class="col-sm-6">
+                  <!-- colored -->
+                  <div class="ih-item square colored effect4"><a href="#">
+                      <div class="img"><img src="img/img1.jpg" alt="img"></div>
+                      <div class="mask1"></div>
+                      <div class="mask2"></div>
+                      <div class="info">
+                        <h3>Heading here</h3>
+                        <p>Description goes here</p>
+                      </div></a></div>
+                    </div>
+        <div class="reserva">
+          <form id="forn1">
+            <label for="">Titulo:</label><p> Asuntos de Familia</p><br>
+            <label for="">Horario:</label> <input type="radio" name="" value=""><label for="">1-3</label> <input type="radio" name="" value=""><label for="">7-9</label><br>
+            <label for="">Sala: </label>
+            <select class="" name="">
+              <option value="">seleccione una</option>
+              <option value="">Sala A-1</option>
+              <option value="">Sala C-1</option>
+              <option value="">Sala C-4</option>
+            </select><br>
+            <label for="">#Ticket</label>
+            <select class="formulario_selec" name="seleccion" id="seleccion" onclick="capturar()">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+            <label for="">Total</label><label id="resultado"></label>
+          </form>
+          <script type="text/javascript">
+          function capturar()
+  {
+      // Obtenemos el valor por el tipo de tag
+      var porTagName=document.getElementsByTagName("select")[0].value;
+
+      document.getElementById("resultado").innerHTML="
+          <br>Por TagName: "+porTagName;
+  }
+          </script>
+        </div>
+    <div class="videos">
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/2P-Zulz4BVY" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </body>
