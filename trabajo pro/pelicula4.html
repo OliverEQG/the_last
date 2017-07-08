@@ -10,6 +10,7 @@
         <script type="text/javascript" src="js/botomes.js"></script>
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/peliculasres.css">
     <link rel="stylesheet" href="css/fonts.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" >
@@ -57,51 +58,51 @@
     <div class="peliculares">
                 <div class="col-sm-6">
                   <div class="ih-item square effect12 left_to_right"><a href="#">
-                      <div class="img"><img src="img/img1.jpg" alt="img"></div>
+                      <div class="img"><img src="img/img4.jpg" alt="img"></div>
                       <div class="info">
                         <h3>Heading here</h3>
                         <p>Description goes here</p>
                       </div></a></div>
                 </div>
-          <div class="reserva">
-            <form id="forn1">
-              <label for="">Titulo:</label><p> Asuntos de Familia</p><br>
-              <div class="input-group radio">
-                <label for="">Tanda:</label> <input type="radio" name="tanda" id="v1" value="si"><label class="la" for="v1">1-3</label> <input type="radio" name="tanda" id="v2" value="si"><label class="la" for="v2">7-9</label><br>
-              </div>
-              <label for="">#Ticket</label>
-              <select value="Cargar" onclick="capturar()">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-              </select><br>
-              <label for="">Balor del ticket:</label> <label id="mult">120C$</label><br>
-              <label for="">Total a pagar: </label> <p id="resultado"></p><br>
-                <div class="input-group radio">
-                <label for="">Sala: </label> <input type="radio" name="sala" id="s1" value="sala1"><label class="la" for="s1">Sala A-1</label>
-                <input type="radio" name="sala" id="s2" value="sala2"><label class="la" for="s2">Sala C-1</label>
-              <input type="radio" name="sala" id="s3" value="sala3"><label class="la" for="s3">Sala C-4</label></div>
-              <div class="input-group radio">
-              <label for="">Forma de pago: </label> <input type="radio" name="tipoP" id="pago" value="no"><label class="la" for="pago">Targeta</label>
-              <input type="radio" name="tipoP" id="pago1" value="no"><label class="la" for="pago1">Efectivo</label></div>
-            </form>
-      </div>
+        <div class="reserva">
+          <form id="forn1">
+            <label for="">Titulo:</label><p> Diario de Greg: Carretera y manta</p><br>
+          <div class="input-group radio">
+            <label for="">Tanda:</label> <input type="radio" name="tanda" id="v1" value="si"><label class="la" for="v1">1-3</label> <input type="radio" name="tanda" id="v2" value="si"><label class="la" for="v2">7-9</label><br>
+          </div>
+            <div class="input-group radio">
+            <label for="">Sala: </label> <input type="radio" name="sala" id="s1" value="sala1"></input><label class="la" for="s1">Sala A-1</label>
+            <input type="radio" name="sala" id="s2" value="sala2"></input><label class="la" for="s2">Sala C-1</label>
+          <input type="radio" name="sala" id="s3" value="sala3"></input><label class="la" for="s3">Sala C-4</label></div>
+            <label for="">#Ticket</label>
+            <select value="Cargar" onclick="capturar()">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select><br>
+            <label for="">Balor del ticket:</label> <label for="">120C$</label><br>
+            <label for="">Total a pagar: </label> <p id="resultado">120C$</p><br>
+            <div class="input-group radio">
+            <label for="">Forma de pago: </label> <input type="radio" name="tipoP" id="pago" value="no"></input><label class="la" for="pago">Targeta</label>
+            <input type="radio" name="tipoP" id="pago1" value="no"></input><label class="la" for="pago1">Efectivo</label></div>
+          </form>
           <script>
           function capturar()
   {
-      var porTagName=document.getElementsByTagName("select")[].value;
-      var mul=document.getElementById("mult").value;
-      document.getElementById("resultado").innerHTML = porTagName*mul+"C$";
+      var porTagName=document.getElementsByTagName("select")[1].value;
+
+      document.getElementById("resultado").innerHTML = porTagName*120+'C$';
   }
           </script>
         </div>
     <div class="videos">
-<iframe width="854" height="480" src="https://www.youtube.com/embed/cJ2jakl9yIk" frameborder="0" allowfullscreen></iframe>    </div>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/nUUniOA7hZQ" frameborder="0" allowfullscreen></iframe>
+      </div>
   </body>

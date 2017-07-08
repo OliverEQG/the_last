@@ -6,7 +6,7 @@
     pluginName = "slidesjs";
     defaults = {
       width: 940,
-      height: 528,
+      height: 400,
       start: 1,
       navigation: {
         active: true,
@@ -19,7 +19,7 @@
       play: {
         active: false,
         effect: "slide",
-        interval: 5000,
+        interval: 4000,
         auto: false,
         swap: true,
         pauseOnHover: false,

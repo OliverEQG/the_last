@@ -1,27 +1,89 @@
 .peliculares img{
   display: inline-block;
-  min-width:200px;
-  height: 300px;
-  position: sticky;
+  width: 300px;
+  height: 200px;
+position: sticky;
 }
 .peliculares p{
   text-align: justify;
   vertical-align: top;
   display: inline;
 }
-.peliculares label{
+.peliculares .la{
   text-align: justify;
   vertical-align: top;
   display: inline-block;
 }
 .peliculares{
-  width: 75%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   color: white;
   font-size: 1.2em;
   font-family: "Times New Roman";
 }
 .videos{
-  margin-left: 10%;
+  margin-left: 2.5%;
 }
+#forn1{
+  background-color: darkblue;
+  margin-left: 50px;
+}
+.input-group {
+  position: relative;
+}
+.input-group .la {
+  color: white; }
+  .input-group .la.label {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    line-height: 16px;
+    top: 16px;
+    left: 0; }
+    .input-group {
+      position: relative;}
+    .input-group .la.label.active {
+      top: -12px;
+      font-size: 12px;
+      line-height: 12px;
+      color: #B6B6B6; }
+      .input-group.radio .la {
+        display: inline-block;
+        cursor: pointer;
+        color: white;
+        position: relative;
+        padding: 5px 15px 5px 51px;
+        font-size: 1em;
+        border-radius: 3px;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+.input-group.radio .la:hover {
+          background: #bbdefb; }
+          .input-group.radio .la:before {
+            content: "";
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            position: absolute;
+            left: 15px;
+            border-radius: 50%;
+            background: none;
+            border: 2px solid #303F9F; }
+            .input-group.radio input[type="radio"] {
+              display: none; }
+              .input-group.radio input[type="radio"]:checked + .la:before {
+                display: none; }
+                .input-group.radio input[type="radio"]:checked + .la {
+                  padding: 5px 15px;
+                  background: #303F9F;
+                  border-radius: 2px;
+                  color: #f2f2f2; }
+                  .input-group.error .la {
+                    color: #D32F2F; }
+                    .input-group.error .la:hover {
+                      background: rgba(211, 47, 47, 0.2); }
+                      .input-group.error .la:before {
+                        border: 2px solid #D32F2F; }

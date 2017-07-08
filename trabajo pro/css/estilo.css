@@ -9,21 +9,19 @@ body{
     background:url(db.jpg);
     background-size:cover;
     background-attachment:fixed;
-  
+
 
 }
 .main{
-    width:100%;
-    max-width:1000px;
+    width:95%;
     margin:20px auto;
-    
 }
 .slides{
     width:100%;
-
 }
 .slides img{
     width:100%;
+    height: 100%;
 }
 .slidesjs-pagination{
     background:#424242;
@@ -64,12 +62,9 @@ header{
 }
 header{
     width:100%;
-
+    margin-bottom: 10px;
 }
 header nav{
-    width:95%;
- max-width:1000px;
- margin:20px auto;
  background:#023859;
  z-index:1000;
 }
@@ -161,7 +156,7 @@ section{
         float:right;
         font-size:40px;
     }
-        
+
     header nav{
         width:80%;
         height:calc(100% - 80px);
@@ -178,14 +173,14 @@ section{
            header nav ul li a  {
         display:block;
     }
- 
+
     header nav ul li:hover .children{
         display:none;
     }
     header nav ul li .children{
         width:100%;
         position:relative;
-       
+
     }
     header nav ul li .children li a{
         margin-left:20px;
@@ -241,9 +236,4 @@ section{
     margin:0px auto;
     text-align:center;
 
-}
-#logo{
-    width:100%;
-    height:300px;
-    position: ;
 }
