@@ -1,0 +1,147 @@
+.peliculares img{
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+position: sticky;
+}
+.peliculares p{
+  text-align: justify;
+  font-size: 1.2em;
+  vertical-align: top;
+  display: inline;
+}
+.peliculares{
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Times New Roman";
+}
+.reserva{
+  margin-left: 50px;
+  padding: 0 20px 20px 20px;
+  background-color: silver;
+}
+.videos{
+  margin-left: 2.5%;
+}
+    .input-group {
+      position: relative;
+}
+      .input-group input[type="text"]{
+        font-family: "Roboto";
+        font-size: 16px;
+        color: #303F9F;
+        width: 100%;
+        outline: none;
+        padding: 15px;
+        background: none;
+        border: none;
+        border-bottom: 2px solid #BBDEFB; }
+         .input-group input[type="text"]:focus, .input-group input[type="text"]:active{
+          outline: none;
+          border-bottom: 2px solid #303F9F; }
+       .input-group input[type="text"].error {
+          border-bottom: 2px solid #D32F2F; }
+         .input-group input[type="text"].error + label {
+            color: #D32F2F; }
+            .input-group label {
+        color: #303F9F; }
+        .input-group label.label {
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          margin-left: 15px;
+          font-size: 16px;
+          line-height: 16px;
+          position: absolute;
+          top: 16px;
+          left: 0; }
+          .input-group label.label.active {
+            top: -12px;
+            font-size: 12px;
+            line-height: 12px;
+            color: #B6B6B6; }
+      .input-group.checkbox label, .input-group.radio label {
+        display: inline-block;
+        cursor: pointer;
+        color: #303F9F;
+        position: relative;
+        padding: 5px 15px 5px 51px;
+        font-size: 1em;
+        border-radius: 3px;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .input-group.checkbox label:hover, .input-group.radio label:hover {
+          background: #bbdefb; }
+      .input-group.checkbox label:before,  .input-group.radio label:before {
+          content: "";
+          display: inline-block;
+          width: 17px;
+          height: 17px;
+          position: absolute;
+          left: 15px;
+          border-radius: 50%;
+          background: none;
+          border: 2px solid #303F9F; }
+      .input-group.error label {
+        color: #D32F2F; }
+      .input-group.error label:hover {
+          background: rgba(211, 47, 47, 0.2); }
+      .input-group.error label:before {
+          border: 2px solid #D32F2F; }
+    .input-group.radio input[type="radio"] {
+        display: none; }
+      .input-group.radio input[type="radio"]:checked + label:before {
+          display: none; }
+      .input-group.radio input[type="radio"]:checked + label {
+          padding: 5px 15px;
+          background: #303F9F;
+          border-radius: 2px;
+          color: #f2f2f2; }
+      .input-group.checkbox label:before {
+        border-radius: 3px; }
+      .input-group.checkbox input[type="checkbox"] {
+        display: none; }
+      .input-group.checkbox input[type="checkbox"]:checked + label:before {
+          display: none; }
+      .input-group.checkbox input[type="checkbox"]:checked + label {
+          background: #303F9F;
+          color: #f2f2f2;
+          padding: 5px 15px; }
+     input[type="submit"] {
+      background: #303F9F;
+      border-radius: 1px;
+      border: 2px solid #f2f2f2;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Roboto";
+      font-size: 16px;
+      padding: 15px;
+      width: 100%;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+    input[type="submit"]:hover {
+        background: #1976D2; }
+        .ta{
+
+        margin-top: 50px;
+        width: 100%;
+
+        box-sizing: border-box;
+
+        }
+        .ta td { padding: 8px;}
+        .fo{
+          height: 250;
+          background-color: #283747;
+          position: absolute;
+
+          bottom: -200;
+          width: 100%;
+          color: white;
+        }

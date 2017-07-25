@@ -1,0 +1,46 @@
+.cuadro{
+    color: white;
+    background: #808B96;
+    width: 75%;
+    /*height: 200px;*/
+    border-radius: 0.2%;
+    text-align: center;
+    margin-left: 13.5%;
+    padding: 5px;
+    border-radius: 6%;
+    }
+.cuadritos{
+    margin-top: 20px;
+    margin-left: 13.5%;
+    margin-right: -13.5%;
+    color: white;
+    width: 24.3%;
+    display: inline-block;
+    background:#808B96;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 9%;
+
+}
+li{
+
+    text-decoration: none;
+    list-style: none;
+}
+.ta{
+
+margin-top: 50px;
+width: 100%;
+
+box-sizing: border-box;
+
+}
+.ta td { padding: 8px;}
+.fo{
+  background-color: #283747;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}

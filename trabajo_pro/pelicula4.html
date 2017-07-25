@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title >CINETRON</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/logofull.png">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="css/menu.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/botomes.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/peliculasres.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" >
+    <link href='htpp://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css' >
+</head>
+<body>
+  <header>
+    <div class="menu_bar">
+        <a href="#" class="bt-menu"><span class="icon-menu"></span> Menu</a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html"><span class="icon-home"></span> Inicio</a></li>
+            <li class="submenu">
+                <a href="#"><span class="icon-cw"></span>Login</a>
+                <ul class="children">
+               <li><a href="registro.html"></span>Registrase</a></li>
+               <li><a href="iniciar.html"></span>Iniciar Sesión</a></li>
+           </ul>
+                </li>
+                <li class="submenu">
+                    <a href="peliculas.html"><span class="icon-shopping-cart"></span>Peliculas</a>
+                </li>
+                <li class="submenu">
+                    <a href="proximamente.html"><span class="icon-cw"></span>Proximamente</a>
+                    </li>
+                <li><a href="contacto.html"><span class="icon-old-phone"></span> Contacto</a></li>
+           </ul>
+                     </li>
+
+        </ul>
+    </nav>
+  </header>
+
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
+ <div class="social">
+        <ul>
+            <li><a href="" target="_blank" class="icon-facebook"></a></li>
+            <li><a href="" target="_blank" class="icon-twitter"></a></li>
+            <li><a href="" target="_blank" class="icon-google"></a></li>
+            <li><a href="" target="_blank" class="icon-pinterest"></a></li>
+        </ul>
+    </div>
+    <div class="peliculares">
+                <div class="col-sm-6">
+                  <div class="ih-item square effect12 left_to_right"><a href="#">
+                      <div class="img"><img src="img/img4.jpg" alt="img"></div>
+                      <div class="info">
+                        <h3>Heading here</h3>
+                        <p>Description goes here</p>
+                      </div></a></div>
+                </div>
+                <div class="reserva">
+                    <form id="forn1" action="" class="formulario" name="formulario_registro" method="get">
+                      <p>Titulo:</p><p> Spider-Man: Homecoming</p><br>
+                      <div class="input-group radio">
+                      <p>Tanda</p> <input type="radio" name="tanda" id="v1" value="tanda1"><label for="v1">1-3</label>
+                      <input type="radio" name="tanda" id="v2" value="tanda2"><label for="v2">5-7</label>
+                    <input type="radio" name="tanda" id="v3" value="tanda3"><label for="v3">7-9</label></div>
+                      <p>#ticket</p>
+                      <select value="Cargar" onclick="capturar()">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                      </select><br>
+                      <p>Total a pagar: </p> <p id="resultado">120C$</p><br>
+                      <p>Valor del ticket: </p> <p>120C$</p>
+                      <div class="input-group radio">
+                      <p>Sala </p> <input type="radio" name="sala" id="s1" value="sala1"><label for="s1">Sala A-1</label>
+                      <input type="radio" name="sala" id="s2" value="sala2"><label for="s2">Sala C-1</label>
+                    <input type="radio" name="sala" id="s3" value="sala3"><label for="s3">Sala C-4</label></div>
+                    <div class="input-group radio">
+                    <p>Forma de pago</p> <input type="radio" name="tipoP" id="pago" value="no"><label  for="pago" >Targeta</label>
+                    <input type="radio" name="tipoP" id="pago1" value="no"><label  for="pago1">Efectivo</label></div>
+                    <div id="targ">
+                      <h3>Datos de la targeta</h3>
+                      <div class="input-group">
+            						<input type="text" id="tar" name="ntargeta">
+            						<label class="label" for="tar">Numero de targeta</label>
+                        <h5>Introduce los 16 dijitos de la targeta bancaria</h5>
+            					</div>
+                      <div class="input-group">
+            						<input type="text" id="matar" name="matargeta">
+            						<label class="label" for="efec">MM/AA</label>
+                        <h5>Introduce el mes y año de la targeta ejemplo(0117)</h5>
+            					</div>
+                      <div class="input-group">
+            						<input type="text" id="cvvtar" name="cvvtargeta">
+            						<label class="label" for="efec">CVV</label>
+                        <h5>Introduce el CVV de tu targeta (ESTE VALOR NO SE ALMACARA)</h5>
+            					</div>
+                    </div>
+                    <div class="input-group checkbox">
+          						<input type="checkbox" name="terminos" id="terminos" value="true">
+          						<label for="terminos">Acepto los Terminos y Condiciones</label>
+          					</div>
+                    <input type="submit" id="btn-submit" value="Enviar">
+                    </form>
+                  </div>
+          <script>
+          function capturar()
+  {
+      var porTagName=document.getElementsByTagName("select")[0].value;
+
+      document.getElementById("resultado").innerHTML = porTagName*120+'C$';
+  }
+          </script>
+        </div>
+    <div class="videos">
+<iframe width="854" height="480" src="https://www.youtube.com/embed/nUUniOA7hZQ" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <footer class="fo">
+
+
+          <table class="ta">
+
+          <tr>
+
+           <td><h3>MORE OF ME</h3></td>
+              <td><h3>PRODUCTS</h3></td>
+           <td><h3>MOVIES INLIENE</h3></td>
+          <tr>
+              <td><a href="#"></a>Contactanos</td>
+              <td><a href="IberLibro.com"></a>Books of your favorite movie<br></td>
+                <td><a href="https://www.moviesplanet.tv/"></a>movies online</td>
+
+       </tr>
+              <tr>
+
+          <td><a href="#"></a>Cine Coorporation Nicaragua</td>
+         <td><a href="https://www.cinemas.com.ni/"></a>Promotions</td>
+               <td><a href="https://www.cinemas.com.ni/"></a>Enjoy the best</td>
+
+           </tr>
+              <tr>
+              <td>Vicitanos</td>
+              <td><a href="#">Cinetron coffee</a></td>
+               <td><a href="#">Cinetron coffee</a></td>
+
+              </tr>
+               <td><a href="#"></a>Club cinetron</td>
+               <td><a href="#"></a>Online reservation</td>
+              <td><a href="http://www.divxonline.info/">Feel live in cintron</a></td>
+
+         <tr>
+
+          </table>
+
+      </footer>
+  </body>

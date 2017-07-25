@@ -1,0 +1,67 @@
+.peli{
+    width: 95%;
+    margin:0 2.5% auto;
+    color: white;
+}
+.peli p{
+    width: 250px;
+    display: inline;
+}
+.peli .minipeli{
+  text-align: justify;
+  width: 33.3%;
+    vertical-align: top;
+    background-color: blue;
+    padding: 5px 10px 5px 10px;
+}
+.su{
+    color: white;
+    background-color: blue;
+    width: 95%;
+    margin: 0 2.5%;
+    text-align: center;
+}
+#menos{display: none;}
+#menos1{display: none;}
+#menos2{display: none;}
+#menos3{display: none;}
+#menos4{display: none;}
+#menos5{display: none;}
+button{
+  background-color: darkblue;
+  border-color: darkblue;
+  color: white;
+}
+button a{
+  color: white;
+  text-decoration: none;
+}
+button:hover a{
+  color: black;
+}
+button:hover{
+    border-color: white;
+    background-color: white;
+    color: black;
+}
+button a:hover{
+  color: black;
+}
+.ta{
+
+margin-top: 50px;
+width: 100%;
+
+box-sizing: border-box;
+
+}
+.ta td { padding: 8px;}
+.fo{
+  height: 250;
+  background-color: #283747;
+  position: absolute;
+
+  bottom: -200;
+  width: 100%;
+  color: white;
+}
